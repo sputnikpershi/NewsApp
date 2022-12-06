@@ -15,6 +15,8 @@
 		14007F6E293EE1AE008748A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14007F6C293EE1AE008748A5 /* LaunchScreen.storyboard */; };
 		14007F77293EE221008748A5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 14007F76293EE221008748A5 /* SnapKit */; };
 		14007F79293EE26A008748A5 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F78293EE26A008748A5 /* ArticlesViewController.swift */; };
+		14007F7B293EE2DE008748A5 /* Network Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F7A293EE2DE008748A5 /* Network Manager.swift */; };
+		14007F7D293EEAFF008748A5 /* ReadArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14007F7C293EEAFF008748A5 /* ReadArticleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		14007F6D293EE1AE008748A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14007F6F293EE1AE008748A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14007F78293EE26A008748A5 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		14007F7A293EE2DE008748A5 /* Network Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Manager.swift"; sourceTree = "<group>"; };
+		14007F7C293EEAFF008748A5 /* ReadArticleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadArticleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				14007F78293EE26A008748A5 /* ArticlesViewController.swift */,
+				14007F7C293EEAFF008748A5 /* ReadArticleViewController.swift */,
+				14007F7A293EE2DE008748A5 /* Network Manager.swift */,
 				14007F5E293EE1AC008748A5 /* AppDelegate.swift */,
 				14007F60293EE1AC008748A5 /* SceneDelegate.swift */,
 				14007F64293EE1AC008748A5 /* Main.storyboard */,
@@ -150,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				14007F5F293EE1AC008748A5 /* AppDelegate.swift in Sources */,
+				14007F7B293EE2DE008748A5 /* Network Manager.swift in Sources */,
 				14007F79293EE26A008748A5 /* ArticlesViewController.swift in Sources */,
+				14007F7D293EEAFF008748A5 /* ReadArticleViewController.swift in Sources */,
 				14007F69293EE1AC008748A5 /* NewsApp.xcdatamodeld in Sources */,
 				14007F61293EE1AC008748A5 /* SceneDelegate.swift in Sources */,
 			);
@@ -302,7 +310,7 @@
 				DEVELOPMENT_TEAM = YY78XVR2DH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Rakk Kiryl";
+				INFOPLIST_KEY_CFBundleDisplayName = News;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -329,7 +337,7 @@
 				DEVELOPMENT_TEAM = YY78XVR2DH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NewsApp/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Rakk Kiryl";
+				INFOPLIST_KEY_CFBundleDisplayName = News;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
