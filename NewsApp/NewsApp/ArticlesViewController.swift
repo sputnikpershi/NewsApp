@@ -8,10 +8,14 @@
 import UIKit
 
 class ArticlesViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        downloadArticles { articles in
+            print(articles)
+        }
         // Do any additional setup after loading the view.
     }
     
